@@ -20,7 +20,7 @@ This project is intended to:
 
 ## Project Start Guide
 
-2.1 See START for this Project Start Guide  
+2.1 See [START](START.md) for this Project Start Guide  
 2.2 Project Design NOT included in Start Guide  
 
 
@@ -39,7 +39,7 @@ This project is intended to:
 
 ## Community Support
 
-4.1 Technological Support from the Community    
+4.1 Technological Support from the Community   
 4.2 Design Support from the Community   
 4.3 Maintenance Support from the Community   
 
@@ -51,6 +51,6 @@ This project is intended to:
 
 ## License & CopyRight
 This project is released under the terms of the BSD license.  
-See LICENSE for more information or see:   
+See LICENSE for more information or see:  
 https://opensource.org/licenses/BSD-3-Clause.  
 
