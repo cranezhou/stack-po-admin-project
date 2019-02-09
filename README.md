@@ -40,8 +40,8 @@ This project is intended to:
 ## Community Support
 
 4.1 Technological Support from the Community    
-4.2 Design Support from the Community    
-4.3 Maintenance Support from the Community    
+4.2 Design Support from the Community   
+4.3 Maintenance Support from the Community   
 
 ## Resource Allocating
 
@@ -51,6 +51,6 @@ This project is intended to:
 
 ## License & CopyRight
 This project is released under the terms of the BSD license.  
-See LICENSE for more information or see:
+See LICENSE for more information or see:   
 https://opensource.org/licenses/BSD-3-Clause.  
 
