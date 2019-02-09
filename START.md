@@ -2,28 +2,28 @@
 Project Start Guide
 -----------------------------------
 
-![mySQL](https://img.shields.io/badge/mysql-5.7-blue.svg)
 ![OpenJDK](https://img.shields.io/badge/OpenJDK-1.8-yellow.svg)
+![mySQL](https://img.shields.io/badge/mysql-5.7-blue.svg)
 
 ![BSD](https://img.shields.io/badge/License-BSD3-blue.svg)
 
 
 ## Start Guide Introduction
 
-Project Name: StackPO Admin Project
-
-This document is intended to provide:
-1.1 Brief Picture of this Project 
-1.2 How to Run this Project
-1.3 Project Reference (License & CopyRight)
+Project Name: StackPO Admin Project  
+  
+This document is intended to provide:    
+1.1 Brief Picture of this Project  
+1.2 How to Run this Project  
+1.3 Project Reference (License & CopyRight)  
 
 ## Basic Environment
 
-2.1 Development Environment
+2.1 Development Environment  
 
-Project Tested as:
-* Centos 7
-* mySQL 5.7
+Project Tested as:  
+* Centos 7 
+* mySQL 5.7 
 * JDK 1.8
 * Maven 3.5.2
 * Tomcat 8
@@ -91,8 +91,8 @@ screen picture 1 <br>
 <font color=#0000ff size=3>screen picture 2</font>
 
 ## Test Case (Optional) 
-5.1 Test Case 1
-5.2 Test Case 2 
+5.1 Test Case 1  
+5.2 Test Case 2  
 
 ## Project Reference
 * See DESIGN for project design document 
