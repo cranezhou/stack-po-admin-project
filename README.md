@@ -34,14 +34,14 @@ This project is intended to:
 3.2.1 MySQL  
 
 ### 3.3 Document
-3.3.1 MarkDown text file (.md)  
+3.3.1 Markdown text file (.md)  
 3.3.2 Restuctured text file (.rst)  
 
 ## Community Support
 
-4.1 Technological Support from the Community   
-4.2 Design Support from the Community   
-4.3 Maintenance Support from the Community   
+4.1 Technological Support from the Community (of)  
+4.2 Design Support from the Community (by)  
+4.3 Maintenance Support from the Community (for)  
 
 ## Resource Allocating
 
