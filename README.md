@@ -39,9 +39,9 @@ This project is intended to:
 
 ## Community Support
 
-4.1 Technological Support from the Community (of)  
-4.2 Design Support from the Community (by)  
-4.3 Maintenance Support from the Community (for)  
+4.1 Technological Support from the Community    
+4.2 Design Support from the Community    
+4.3 Maintenance Support from the Community    
 
 ## Resource Allocating
 
