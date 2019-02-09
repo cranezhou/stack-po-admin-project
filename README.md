@@ -11,46 +11,46 @@ StackPO Admin Project
 
 ## Project Overview
 
-Long long ago, there is a story about Spring ...
+Long long ago, there is a story about Spring ...  
 
-This project is intended to:
-1.1 Establish a basic functional sub system (software) 
-1.2 Build Development Team by this project
-1.3 Allocating Global Resource (if possible) 
+This project is intended to:  
+1.1 Establish a basic functional sub system (software)  
+1.2 Build Development Team by this project  
+1.3 Allocating Global Resource (if possible)   
 
 ## Project Start Guide
 
-2.1 See START for this Project Start Guide
-2.2 Project Design NOT included in Start Guide
+2.1 See START for this Project Start Guide  
+2.2 Project Design NOT included in Start Guide  
 
 
 ## Knowledge Base
 
 ### 3.1 Source Code
-3.1.1 Spring Boot (Security)
-3.1.2 AdminLTE
+3.1.1 Spring Boot (Security)  
+3.1.2 AdminLTE  
 
 ### 3.2 Database
-3.2.1 MySQL
+3.2.1 MySQL  
 
 ### 3.3 Document
-3.3.1 MarkDown text file (.md) 
-3.3.2 Restuctured text file (.rst)
+3.3.1 MarkDown text file (.md)  
+3.3.2 Restuctured text file (.rst)  
 
 ## Community Support
 
-4.1 Technological Support from the Community (of)
-4.2 Design Support from the Community (by)
-4.3 Maintenance Support from the Community (for)
+4.1 Technological Support from the Community   
+4.2 Design Support from the Community   
+4.3 Maintenance Support from the Community   
 
 ## Resource Allocating
 
-5.1 See REFERENCE file for previous Project Reference 
-5.2 Welcome to join to develop this project together.
+5.1 See REFERENCE file for previous Project Reference  
+5.2 Welcome to join to develop this project together  
 
 
 ## License & CopyRight
-This project is released under the terms of the BSD license.
+This project is released under the terms of the BSD license.  
 See LICENSE for more information or see:
-https://opensource.org/licenses/BSD-3-Clause.
+https://opensource.org/licenses/BSD-3-Clause.  
 
