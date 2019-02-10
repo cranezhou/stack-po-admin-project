@@ -45,12 +45,12 @@ This project is intended to:
 
 ## Resource Allocating
 
-5.1 See REFERENCE file for previous Project Reference  
+5.1 See [REFERENCE](REFERENCE) file for previous Project Reference  
 5.2 Welcome to join to develop this project together  
 
 
 ## License & CopyRight
 This project is released under the terms of the BSD license.  
-See LICENSE for more information or see:  
+See [LICENSE](LICENSE) for more information or see:  
 https://opensource.org/licenses/BSD-3-Clause.  
 
