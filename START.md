@@ -22,7 +22,7 @@ This document is intended to provide:
 2.1 Development Environment  
 
 Project Tested as:  
-* Centos 7 
+* CentOS 7 
 * mySQL 5.7 
 * JDK 1.8
 * Maven 3.5.2
@@ -31,23 +31,9 @@ Project Tested as:
 2.2 Stage Environment
 2.3 Production Environment
 
-## Supported Components
-
-3.1 Basic Components
-* mysql-connector
-* druid
-* mybatis
-* spring security
-* thymeleaf
-* junit
-* logback
-
-3.2 Advanced Components
-* AdminLTE
-
 ## Project Building
 
-4.1 get source code from github
+3.1 get source code from github
 
 ``` 
 mkdir ~/Projects/hellosoft
@@ -55,27 +41,27 @@ cd ~/Project/hellosoft
 git clone https://github.com/cranezhou/stack-po-admin-project.git 
 ```
 
-4.2 setup local database
+3.2 setup local database
 
 Please install mysql on your local development computer. 
 (refer to official documents)
 
 create a sqldbuser01 by using root account.
 
-```
+``` 
 cd ~/Project/hellosoft/stack-po-admin-project/database
 mysql -u sqldbuser01 -p
 mysql> create database stack_po_admin_db_dev;
 ```
 
-4.3 running project on localhost
+3.3 running project on localhost
 
-``` bash
+``` 
 cd ~/Project/hellosoft/stack-po-admin-project/
 mvn spring-boot:run 
 ```
 
-4.4 project start demo
+3.4 project start demo
 
 ``` html
 http://localhost:8080/
@@ -95,8 +81,8 @@ screen picture 1 <br>
 5.2 Test Case 2  
 
 ## Project Reference
-* See DESIGN for project design document 
-* See COMPONENTS for project components 
+* See [DESIGN](DESIGN) for project design document 
+* See [COMPONENTS](COMPONENTS) for project components 
   (official websites reference)
 
 ## Contributors
@@ -107,6 +93,6 @@ screen picture 1 <br>
 
 ## License & CopyRight
 This Project is released under the terms of the BSD license.  
-See LICENSE for more information or see:
+See [LICENSE](LICENSE) for more information or see:
 https://opensource.org/licenses/BSD-3-Clause.
 
