@@ -25,10 +25,10 @@ Project Tested as:
 * Centos 7 
 * mySQL 5.7 
 * JDK 1.8
-* Maven 3.5.2
-* Tomcat 8
+* Maven 3.5.3
+* Tomcat 8.5
 
-2.2 Stage Environment
+2.2 Stage Environment  
 2.3 Production Environment
 
 ## Supported Components
@@ -66,6 +66,9 @@ create a sqldbuser01 by using root account.
 cd ~/Project/hellosoft/stack-po-admin-project/database
 mysql -u sqldbuser01 -p
 mysql> create database stack_po_admin_db_dev;
+
+mysql> use stack_po_admin_db_dev;
+mysql> source stack_po_admin_db_dev.sql
 ```
 
 4.3 running project on localhost
@@ -85,9 +88,9 @@ screen picture 1
 
 ## Code Structure
 
-4.1 Main
+4.1 Main  
 screen picture 1 <br>
-4.2 Test
+4.2 Test  
 <font color=#0000ff size=3>screen picture 2</font>
 
 ## Test Case (Optional) 
