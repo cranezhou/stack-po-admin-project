@@ -26,7 +26,7 @@ Project Tested as:
 * mySQL 5.7 
 * JDK 1.8
 * Maven 3.5.3
-* Tomcat 8.5
+* Tomcat 8
 
 2.2 Stage Environment  
 2.3 Production Environment
