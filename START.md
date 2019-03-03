@@ -70,8 +70,9 @@ mvn spring-boot:run
 http://localhost:8080/
 ```
 
-screen figure 3.4.1
-![image]（https://github.com/cranezhou/stack-po-admin-project/blob/master/images/START_scnf030401.png)
+screen figure 3.4.1  
+![image]（https://github.com/cranezhou/stack-po-admin-project/blob/master/images/START_scnf030401.png)  
+![图片说明1](https://github.com/cranezhou/stack-po-admin-project/blob/master/images/START_scnf030401.png)
 
 ## Code Structure
 
