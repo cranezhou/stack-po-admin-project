@@ -72,6 +72,8 @@ http://localhost:8080/
 
 ![screen figure 3.4.1](https://github.com/cranezhou/stack-po-admin-project/blob/master/images/START_scnf030401.png)
 
+![screen figure 3.4.2](https://github.com/cranezhou/stack-po-admin-project/blob/master/images/START_scnf030402.png)
+
 ## Code Structure
 
 4.1 Main  
