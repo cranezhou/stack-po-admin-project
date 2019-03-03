@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+    	<title>StackPOAdmin | Starter</title>
+    	<!-- <title>Stack PO Admin Project v0.1 (based Spring Security Example)</title> -->
+
+		<!-- static under resources/static/normal/**, added by crane zhou on 09.26.2018 -->
+		<!-- Bootstrap 3.3.7 -->
+		<link rel="stylesheet" type="text/css" th:href="@{/normal/css/bootstrap.min.css}" />
+
+		<!-- jQuery 3 -->
+		<script th:src="@{/normal/js/jquery.min.js}"></script>
+		<!-- Bootstrap 3.3.7 -->
+		<script th:src="@{/normal/js/bootstrap.min.js}"></script>
+
+    </head>
+    <body>
+        <h1>Welcome! (from template-dev based on AdminLTE-2.4.5)</h1>
+        
+        <img th:src="@{/normal/images/login.jpg}" class="img-responsive center-block" width="300" height="300" alt="Logo" />
+        
+        <p>Click <a th:href="@{/home}">here</a> to see a greeting.</p>
+    </body>
+</html>

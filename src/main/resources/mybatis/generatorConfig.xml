@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <properties resource="mybatis/generatorConfig.properties"/>
+
+  <classPathEntry location="/home/crane/WorkSpace/Development/mavenware/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" />
+<!--   
+  <classPathEntry location="mysql-connector-java-5.1.44-bin.jar" />
+  <classPathEntry location="/home/crane/Projects/eclipse_neon3_workspace/stack-po-project/src/main/resources/database/mysql-connector-java-5.1.44-bin.jar" />
+  -->
+<!--   
+  <context id="stack_po" targetRuntime="MyBatis3">
+ -->
+  <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+          
+        <commentGenerator>  
+            <property name="suppressDate" value="true"/>  
+            <property name="suppressAllComments" value="true"/>  
+        </commentGenerator>  
+
+
+    <jdbcConnection driverClass="${mybatis.driverClassName}"
+                    connectionURL="${mybatis.url}" userId="${mybatis.username}" password="${mybatis.password}">
+    </jdbcConnection>
+
+    <javaModelGenerator targetPackage="com.rillsoft.stackpo.domain" targetProject="src/main/java">
+        <property name="constructorBased" value="true" />
+        <property name="enableSubPackages" value="true" />
+        <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+    <!-- 
+    <sqlMapGenerator targetPackage="com.rillsoft.stackpo.sqlmap" targetProject="src/main/java">
+        <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+    -->
+    
+    <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+        
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.rillsoft.stackpo.mapper" targetProject="src/main/java">  
+        <property name="enableSubPackages" value="true"/>
+    </javaClientGenerator>
+
+    <table tableName="%">
+        <!--mysql 配置-->
+        <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+        <!--oracle 配置-->
+        <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
+    </table>
+    
+<!-- 
+    <table schema="tbl_auth_users" tableName="tbl_auth_users" domainObjectName="User" 
+    	enableCountByExample="false" 
+    	enableUpdateByExample="false"  
+        enableDeleteByExample="false" 
+        enableSelectByExample="false" 
+        selectByExampleQueryId="false">  
+        <columnOverride column="id" property="id" />  
+        <columnOverride column="username" property="username" />  
+        <columnOverride column="password" property="password" />  
+        <columnOverride column="phone" property="phone" />  
+        <columnOverride column="email" property="email" />  
+        <columnOverride column="last_login" property="last_login" />
+        <columnOverride column="date_joined" property="date_joined" />  
+    </table>
+-->   
+  </context>
+</generatorConfiguration>

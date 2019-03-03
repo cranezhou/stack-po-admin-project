@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <properties resource="mybatis/generatorConfig.properties"/>
+
+  <classPathEntry location="/home/crane/WorkSpace/Development/mavenware/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar" />
+<!--   
+  <classPathEntry location="mysql-connector-java-5.1.44-bin.jar" />
+  <classPathEntry location="/home/crane/Projects/eclipse_neon3_workspace/stack-po-project/src/main/resources/database/mysql-connector-java-5.1.44-bin.jar" />
+  -->
+<!--   
+  <context id="stack_po" targetRuntime="MyBatis3">
+  <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+  targetRuntime=MyBatis3(default), MyBatis3Simple, Ibatis2Java2, Ibatis2Java5
+  defaultModelType=conditional(default), flat, hierarchical
+-->
+  <context id="Mysql" targetRuntime="MyBatis3" defaultModelType="flat">
+<!--   
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.study.util.MyMapper"/>
+        </plugin>
+--> 
+
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+          
+        <commentGenerator>  
+            <property name="suppressDate" value="true"/>  
+            <property name="suppressAllComments" value="false"/>  
+        </commentGenerator>  
+
+
+    <jdbcConnection driverClass="${mybatis.driverClassName}"
+                    connectionURL="${mybatis.url}" userId="${mybatis.username}" password="${mybatis.password}">
+    </jdbcConnection>
+
+    <javaModelGenerator targetPackage="com.rillsoft.stackpoadmin.domain" targetProject="src/main/java">
+        <property name="constructorBased" value="true" />
+        <property name="enableSubPackages" value="true" />
+        <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+    
+    <!-- 
+    <sqlMapGenerator targetPackage="com.rillsoft.stackpoadmin.sqlmap" targetProject="src/main/java">
+        <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+    -->
+    <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+        
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.rillsoft.stackpoadmin.mapper" targetProject="src/main/java">  
+        <property name="enableSubPackages" value="true"/>
+    </javaClientGenerator>
+
+    <table schema="tbl_auth_users" tableName="tbl_auth_users" domainObjectName="User" 
+    	enableCountByExample="true" 
+    	enableUpdateByExample="false"  
+        enableDeleteByExample="false" 
+        enableSelectByExample="true" 
+        selectByExampleQueryId="false"> 
+        <columnOverride column="id" property="id" />  
+        <columnOverride column="username" property="username" />  
+        <columnOverride column="password" property="password" />
+        <columnOverride column="fullname" property="fullname" />    
+        <columnOverride column="user_email" property="user_email" />  
+        <columnOverride column="user_phone" property="user_phone" />  
+        <columnOverride column="last_login" property="last_login" />
+        <columnOverride column="date_joined" property="date_joined" />
+        <columnOverride column="user_status" property="user_status" />   
+    </table>
+    
+    <table schema="tbl_auth_role" tableName="tbl_auth_role" domainObjectName="Role" 
+    	enableCountByExample="true" 
+    	enableUpdateByExample="false"  
+        enableDeleteByExample="false" 
+        enableSelectByExample="true" 
+        selectByExampleQueryId="false"> 
+        <columnOverride column="id" property="id" />  
+        <columnOverride column="role_name" property="role_name" />  
+        <columnOverride column="remark" property="remark" />
+    </table>
+     
+    <table schema="tbl_auth_resource" tableName="tbl_auth_resource" domainObjectName="Resource" 
+    	enableCountByExample="true"
+    	enableUpdateByExample="false"
+        enableDeleteByExample="false" 
+        enableSelectByExample="true" 
+        selectByExampleQueryId="false"> 
+        <columnOverride column="id" property="id" />  
+        <columnOverride column="resource_name" property="resource_name" />
+        <columnOverride column="resource_desc" property="resource_desc" />
+        <columnOverride column="resource_type" property="resource_type" />
+        <columnOverride column="resource_status" property="resource_status" />  
+    </table>
+  </context>
+</generatorConfiguration>
